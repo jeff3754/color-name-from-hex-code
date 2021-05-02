@@ -1,0 +1,39 @@
+{
+  "name": "color-name-from-hex-code",
+  "version": "1.0.0",
+  "description": "Get the color name and other formats from hex code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff3754/color-name-from-hex-code.git"
+  },
+  "keywords": [
+    "HexColor",
+    "HexCode",
+    "HexColorCode",
+    "HexColorCodeToColorName",
+    "ColorName",
+    "Color Name",
+    "getColorName"
+  ],
+  "author": "Jefferin Joseph <jeff3754@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.23",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.5"
+  }
+}
